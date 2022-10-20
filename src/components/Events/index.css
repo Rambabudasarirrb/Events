@@ -1,0 +1,29 @@
+.bg-container {
+  background-color: #64748b;
+  display: flex;
+  align-items: flex-start;
+}
+.events-content {
+  width: 60%;
+  height: 100vh;
+  padding-top: 48px;
+  padding-right: 4px;
+  padding-bottom: 48px;
+  padding-left: 48px;
+  overflow-y: auto;
+}
+.heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 30px;
+  color: #ffffff;
+  margin-left: 100px;
+  line-height: 1.2px;
+  margin-bottom: 48px;
+}
+.list-item-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}

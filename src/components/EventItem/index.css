@@ -1,0 +1,39 @@
+.list-items {
+  width: 90%;
+  list-style: none;
+  margin-right: 24px;
+  margin-bottom: 32px;
+}
+@media screen and (min-width: 768px) {
+  .list-items {
+    width: 45%;
+  }
+}
+.button-image {
+  background: transparent;
+  border: none;
+  padding: 0px;
+  outline: none;
+  cursor: pointer;
+}
+.event-image {
+  width: 100%;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  max-width: 460px;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #ffffff;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+  padding: 0px;
+}
+.active {
+  border: 2px solid #2dd4bf;
+  border-radius: 10px;
+}
